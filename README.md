@@ -19,6 +19,10 @@ Issue: The result column in the CSV file was read as strings, including 'warning
 Issue: The initial queries only counted NiOs (result=1) and iOs (result=0), missing warnings. => Resolution: Added a query to count warnings (result='warning') and included it in the final output.
 ### Problem 3: Time Series Plotting with Missing Dates
 Issue: The time series plot had gaps for dates without entries. => Resolution: Created a complete date range and interpolated missing var2 values.
+### Problem 4: X-Axis Label Overcrowding
+Issue: X-axis labels were overcrowded when displaying every day. => Resolution: Adjusted the X-axis to display every second day using mdates.DayLocator(interval=2).
+### Problem 5: Compatibility with Google Colab
+Issue: The script uses google.colab.files for file uploads, which is specific to Google Colab. => Resolution: Added a note in the README to indicate that the code is designed to run in Google Colab.
 
 ## Requirements
 - Python 3.x
