@@ -2,7 +2,8 @@
 
 This repository contains code for analyzing production line data using Python and SQLite. It includes scripts to upload and process CSV files, execute SQL queries to count entries, and calculate NiO, iO, and warning counts per station. Additionally, it provides visualizations of var2 values over time with daily average calculations and interpolations for missing data points.
 
-## Google Colab (for file upload functionality)
+## Google Colab
+- Upload your CSV-file possible with Google Colab
 
 ## Features
 - Upload and process CSV files
